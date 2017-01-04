@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Стиль</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/media_production.css">
+    <link rel="stylesheet" href="css/style_production.css">
+    <link rel="stylesheet" href="css/header_and_footer.css">
+    <link rel="stylesheet" href="css/media_header_and_footer.css">
+    <!-- icon -->
+    <link rel="shortcut icon" href="images/logo-min.png" type="image/x-icon">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header id="header">
+    	<div class="container">
+    		<div class="row">
+                <div id="logo"><a href="index.html"><img src="images/logo.png" alt="Стиль"></a></div>
+                <div id="contacts">
+                    <div id="phone">
+                        <p><i class="fa fa-phone" aria-hidden="true"></i> Гаряча лінія<br><span>0-800-503-506</span></p>
+                        <p><i>(згідно тарифів </br> оператора зв'язку)</i></p>
+                    </div>
+                </div>
+            </div>
+    	
+    		<div class="row header-bottom">
+    		<nav id="nav">
+                <ul>
+                    <li><a href="about_company.html">Про компанію</a></li>
+                    <li><a href="#" id="selected">Продукція</a></li>
+                    <li><a href="career.html">Кар'єра</a></li>
+                    <li><a href="news.html">Новини</a></li>
+                    <li><a href="contacts.html">Контакти</a></li>
+                </ul>
+			</nav>
+			</div>
+    	</div>
+    </header>
+    <section class="container autoHeight">
+    		<div class="col-md-3 col-sm-4">
+	    		<div id="btn-container" class="tabs">
+	    			<ul class="nav nav-tabs">
+			    		<li class="tab btn-block active"><a href="#tab1" data-toggle="tab" class="nav-main">Акції</a></li>
+			    		<li class="tab btn-block"><a href="#tab2" data-toggle="tab" class="nav-main">Особстий кабінет</a></li>
+                        <li class="tab btn-block"><a href="#tab3" data-toggle="tab" class="nav-main">Бренди і продукція</a></li>
+                        <ul id='proba'>
+                            <li>горілка</li>
+                            <li>мартіні</li>
+                            <li>самогон</li>
+                            <li>пиво</li>
+                        </ul>
+			    	</ul>
+			    </div>
+			</div>
+			<div class="col-md-9 col-sm-8">
+	    		<div id="tabs" class="tab-content" >
+			    	<div id="tab1" class="tab-pane active">
+                        <h1>Тут буде відображатися контент <b>Акції</b></h1>
+                    </div>	
+			    	<div id="tab2" class="tab-pane">
+                         <form method="post" action=" ">
+                            <p>Логін<span>*</span></p>
+                            <p><input type="text" name="login" value=""></p>
+                            <p>Пароль<span>*</span></p>
+                            <p><input type="password" name="password" value="""></p>
+                            <p class="submit"><input type="submit" name="" value="Увійти"><input type="checkbox" name="" value="">Запам'ятати мене</p>
+                            <p><a href="#">Забули пароль?</a></p>
+                        </form>         
+                    </div>
+                    <div id="tab3" class="tab-pane">
+                        <h1>Тут буде відображатися контент <b>Бренди і продукція</b></h1>           
+                    </div>
+		    	</div>
+		    </div> 	
+    </section>
+    <footer id="footer" class="container">
+        <div >
+            <p>&#169; ТФ "Стиль". Всі права захищено.</p>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/footer.js"></script>
+    <script type="text/javascript" src="js/proba.js"></script>
+  </body>
+</html>

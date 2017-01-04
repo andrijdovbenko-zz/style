@@ -1,0 +1,148 @@
+@font-face {
+    font-family: DejaVuSans-Bold; /* Имя шрифта */
+    src: url(../fonts/DejaVuSans-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: DejaVuSansCondensed; /* Имя шрифта */
+    src: url(../fonts/DejaVuSansCondensed.ttf); /* Путь к файлу со шрифтом */
+}
+
+font-face {
+	font-family: DejaVuSans-ExtraLight; /* Имя шрифта */
+	src: url(../fonts/DejaVuSans-ExtraLight.ttf); /* Путь к файлу со шрифтом */
+}
+
+section{
+	padding: 40px 0 ;
+	background-color: white;
+}
+
+section ul li{
+	display: block;
+	text-decoration: none;
+}
+
+.nav-main{
+	height: 48px;
+	margin: 1px;
+	color: #949494;
+	background-color: #EEEEEE;
+	border: none;
+	border-radius: 4px;
+	vertical-align: center;
+}
+
+.nav-main:hover{
+	color: #000000;
+	background-color: #EEEEEE;
+	border: none;
+	border-radius: 4px;
+}
+
+
+.tabs .nav-main{
+	padding: 14px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: white;
+    cursor: default;
+    background-color: #0168B3;
+    border: 1px solid #ddd;
+}
+
+.nav-tabs > li > a{
+	border-radius: 4px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+#tabs{
+	padding-bottom: 25px;
+}
+
+.article{
+	width: 30%;
+	min-height: 330px;
+	float: left;
+}
+
+.article img{
+	width: 100%
+}
+
+.article h3{
+	font-family: DejaVuSans-Bold;
+	text-transform: uppercase;
+}
+
+.article p{
+	color: #949494;
+	font-family: DejaVuSansCondensed;
+	font-size: 11px;
+}
+
+.article a{
+	font-family: DejaVuSans-Bold;
+	font-size: 12px;
+	color: #49BBD2;
+}
+
+#tab2 img{
+	width: 100%;
+}
+
+#section #tabs #tab3 ol li{
+	list-style-type: disc;
+	font-size: 17px;
+	font-family: DejaVuSansCondensed;
+}
+
+#tab4 .article{
+	width: 50%;
+}
+
+#tab4 h3{
+	text-transform: capitalize;
+	font-size: 22px;
+}
+
+#tab4 h4{
+	font-family: DejaVuSans-Bold;
+	font-size: 14px;
+	color: #949494;
+}
+
+#tab5{
+	font-family: DejaVuSans-ExtraLight;
+	color: #004677;
+}
+
+#tab5 p{
+	text-align: justify;
+}
+
+#tab5 h1, h2{
+	font-family: DejaVuSans-Bold;
+}
+
+#tab5 h3{
+	font-family: DejaVuSansCondensed;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+#tab5 ol{
+	list-style-type: disc;
+}
+
+body .lv_window .lv_window_dark .lv_window_dark .lv_button_top_close {
+    right: 45px;
+    top: 42px;
+}

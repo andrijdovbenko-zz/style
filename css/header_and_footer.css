@@ -1,0 +1,130 @@
+@font-face {
+    font-family: DejaVuSans-Bold; /* Имя шрифта */
+    src: url(../fonts/DejaVuSans-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: DejaVuSansCondensed; /* Имя шрифта */
+    src: url(../fonts/DejaVuSansCondensed.ttf); /* Путь к файлу со шрифтом */
+}
+
+font-face {
+	font-family: DejaVuSans-ExtraLight; /* Имя шрифта */
+	src: url(../fonts/DejaVuSans-ExtraLight.ttf); /* Путь к файлу со шрифтом */
+}
+
+body{
+	background-color: #82CBFF;
+	background: url(../images/body-bg.jpg) center top;
+	overflow-y: scroll;
+}
+
+/*HEADER*/
+
+header{
+	min-height: 125px;
+}
+
+#logo{
+	margin: 10px;
+	width: 145px;
+	height: 145px;
+	display: inline-block;
+	position: absolute;
+}
+
+#logo img{
+	width: 100%;
+	height: 100%;
+}
+
+#contacts{
+	float: right;
+	margin: 28px auto;
+	font-size: 13px;
+}
+
+#contacts p {
+	margin-bottom: 0;
+	color: black;
+	font-family: DejaVuSansCondensed;
+}
+
+#contacts span{
+	color: #000000;
+	font-family: DejaVuSans-Bold;
+}
+
+#contacts .fa-phone{
+	color: blue;
+}
+
+
+#phone{
+	float: left;
+	padding: 0 23px;
+}
+
+#nav{
+	font-family: DejaVuSans-Bold;
+	margin:0 auto;
+	padding: 17px 0 6px 0;
+	max-width: 625px;
+}
+
+header .container{
+	background: url(../images/header-bg.png) no-repeat center bottom;
+	-moz-background-size: 100% 64px,auto; /* Firefox 3.6+ */
+    -webkit-background-size: 100% 64px,auto; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100% 64px,auto; /* Opera 9.6+ */
+    background-size: 100% 64px,auto; /* Современные браузеры */
+}
+
+header ul li{
+	display: inline-block;
+	text-decoration: none;
+	margin: 5px 13px;
+}
+
+#nav ul li a{
+	color: white;
+	padding-bottom: 18px;
+}
+
+#nav ul li a:hover{
+	color: white;
+	text-decoration: none;
+	border-bottom: 5px solid #f9e300;
+}
+
+#nav ul li a:focus{
+	color: white;
+	text-decoration: none;
+	outline: none;
+}
+
+#selected{
+	border-bottom: 5px solid rgb(249, 227, 0);
+}
+
+/*FOOTER*/
+
+footer{
+	height: 50px;
+	position: relative;
+	margin: -15px;
+	background: url(../images/footer-bg.png) no-repeat center bottom;
+	-moz-background-size: 100% 64px, auto; /* Firefox 3.6+ */
+    -webkit-background-size: 100% 64px, auto; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100% 64px,auto; /* Opera 9.6+ */
+    background-size: 100% 64px, auto; /* Современные браузеры */
+    z-index: 5;
+}
+
+footer p{
+	color: white;
+	font-family: DejaVuSansCondensed;
+	margin-top: 15px;
+	text-align: center;
+
+}

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: DejaVuSans-Bold; /* Имя шрифта */
+    src: url(../fonts/DejaVuSans-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: DejaVuSansCondensed; /* Имя шрифта */
+    src: url(../fonts/DejaVuSansCondensed.ttf); /* Путь к файлу со шрифтом */
+}
+
+font-face {
+	font-family: DejaVuSans-ExtraLight; /* Имя шрифта */
+	src: url(../fonts/DejaVuSans-ExtraLight.ttf); /* Путь к файлу со шрифтом */
+}
+
+#section{
+	background-color: white;
+	padding: 0 150px 50px 150px;
+}
+
+h3{
+	color: #0168b3;
+	font-family: DejaVuSans-ExtraLight;
+}
+
+.photo_news img{
+	max-width: 22%;
+	height: auto;
+	margin: 10px;
+}

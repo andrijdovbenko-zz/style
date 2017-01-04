@@ -1,0 +1,125 @@
+@font-face {
+    font-family: DejaVuSans-Bold; /* Имя шрифта */
+    src: url(../fonts/DejaVuSans-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: DejaVuSansCondensed; /* Имя шрифта */
+    src: url(../fonts/DejaVuSansCondensed.ttf); /* Путь к файлу со шрифтом */
+}
+
+font-face {
+	font-family: DejaVuSans-ExtraLight; /* Имя шрифта */
+	src: url(../fonts/DejaVuSans-ExtraLight.ttf); /* Путь к файлу со шрифтом */
+}
+
+
+section{
+	padding: 40px 0 ;
+	background-color: white;
+}
+
+section ul li{
+	display: block;
+	text-decoration: none;
+}
+
+.nav-main{
+	height: 48px;
+	margin: 1px;
+	color: #949494;
+	background-color: #EEEEEE;
+	border: none;
+	border-radius: 4px;
+	vertical-align: center;
+}
+
+.nav-main:hover{
+	color: #000000;
+	background-color: #EEEEEE;
+	border: none;
+	border-radius: 4px;
+}
+
+
+.tabs .nav-main{
+	padding: 14px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: white;
+    cursor: default;
+    background-color: #0168B3;
+    border: 1px solid #ddd;
+}
+
+.nav-tabs > li > a{
+	border-radius: 4px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+#tabs{
+	padding-bottom: 25px;
+}
+
+form{
+	margin-left: 30px;
+	border:1px solid #D3CED2;
+	border-radius: 4px;
+	padding: 25px 15px;
+	max-width: 350px;
+}
+
+form span{
+	color: red;
+}
+
+form p {
+	font-family: DejaVuSansCondensed; 
+	color: #B8B8B8;
+	font-weight: 600;
+}
+
+form p a{
+	color: #49BBD2;
+	font-weight: 400;
+}
+
+input[type="checkbox"]{
+	margin: 5px;
+}
+
+input[type="text"], input[type="password"]{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #EBEDF2; 
+	background-color: #F5F5F5;
+	padding-left: 25px;
+	font-family: DejaVuSansCondensed;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+	background-color: white;
+}
+
+input[type="submit"]{
+	width: 90px;
+    height: 33px;
+	color: white;
+	background-color: #0168B3;
+	border: none;
+	border-radius: 3px;
+	vertical-align: center;
+}
+
+input[type="submit"]:hover{
+	background-color: #017AD0;
+}

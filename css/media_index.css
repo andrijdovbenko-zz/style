@@ -1,0 +1,181 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	#header .container{
+		min-height: 135px;
+		background: url(../images/header-bg-min.png) no-repeat center bottom;
+		-moz-background-size: 100% 64px,auto; /* Firefox 3.6+ */
+	    -webkit-background-size: 100% 64px,auto; /* Safari 3.1+ и Chrome 4.0+ */
+	    -o-background-size: 100% 64px,auto; /* Opera 9.6+ */
+	    background-size: 100% 64px,auto; /* Современные браузеры */
+	}
+
+	header #logo{
+		margin-left: 15px;
+		width: 110px;
+		height: 110px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+
+	header nav ul li{
+		margin: 5px 7px;
+	}
+
+	header #nav, {
+	    margin-right: 5px;
+	}
+
+	/*#article #nav-production ul li{
+		display: block;
+		
+	}*/
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	#header .container{
+		background: url(../images/header-bg-tablet.png) no-repeat center bottom;
+		-moz-background-size: 100% 120px,auto; /* Firefox 3.6+ */
+	    -webkit-background-size: 120% 100px,auto; /* Safari 3.1+ и Chrome 4.0+ */
+	    -o-background-size: 100% 120px,auto; /* Opera 9.6+ */
+	    background-size: 100% 120px,auto; /* Современные браузеры */
+	}
+
+
+	header ul li{
+		width: 40%;
+		margin: 5px;
+	}
+
+	header #logo{
+		margin-left: 35px;
+		width: 90px;
+		height: 90px;
+	}
+
+	header #nav ul li a{
+		padding-bottom: 2px;
+	}
+
+	header #contacts{
+		margin: 15px auto;
+	}
+
+	
+
+	footer p{
+		margin-right: 45px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	header #logo{
+		margin: 10px;
+		display: inline-block;
+		width: 70px;
+		height: 70px;
+	}
+
+	#header .container{
+		background:none;
+	}
+
+	header #contacts{
+		margin: 5px 0;
+	}
+
+	#contacts #phone{
+		float: none;
+		padding: 5px;
+		border-right: 8px solid #AAACAB;
+	}
+
+	header ul li{
+		width: 90%;
+		margin: 5px 0;
+	}
+
+	header .header-bottom #nav{
+		display: none;
+		width: 100%;
+		padding-right: 0;
+		margin-right: 0;
+		background: url(../images/header-bg-tablet.png) no-repeat center bottom;
+		-moz-background-size: 100% 220px,auto; /* Firefox 3.6+ */
+	    -webkit-background-size: 100% 220px,auto; /* Safari 3.1+ и Chrome 4.0+ */
+	    -o-background-size: 100% 220px,auto; /* Opera 9.6+ */
+	    background-size: 100% 220px,auto; /* Современные браузеры */
+	}
+
+	.main_mnu_button{
+		display: inline-block;
+
+	}
+	
+	#article #nav-production ul{
+		padding: 0 25px;
+	}
+
+	#article #nav-production ul li,
+	#article #nav-production ul li a
+	{
+		display: block;
+		width: 100%;
+	}
+	
+
+	footer div p{
+		margin-top: 15px;
+
+	}
+
+	body footer{
+		background: none;
+		background-color: #0168B3;
+	}
+
+}
+    
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 481px) {
+	.main_mnu_button{
+		display: none;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,129 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	#header .container{
+		background: url(../images/header-bg.png) no-repeat center bottom;
+   		-moz-background-size: 100% 64px,auto; /* Firefox 3.6+ */
+	    -webkit-background-size: 100% 64px,auto; /* Safari 3.1+ и Chrome 4.0+ */
+	    -o-background-size: 100% 64px,auto; /* Opera 9.6+ */
+	    background-size: 100% 64px,auto; /* Современные браузеры */
+	}
+	header #logo{
+		margin-left: 15px;
+		width: 110px;
+		height: 110px;
+	}
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	header #logo{
+		margin-left: 15px;
+	}
+
+	header nav ul li{
+		margin: 5px 7px;
+	}
+
+	header #nav {
+	    margin-right: 15px;
+	}
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	#header{
+		background: url(../images/header-bg-tablet.png) no-repeat center bottom;
+		-moz-background-size: 100% 120px,auto; /* Firefox 3.6+ */
+	    -webkit-background-size: 120% 100px,auto; /* Safari 3.1+ и Chrome 4.0+ */
+	    -o-background-size: 100% 120px,auto; /* Opera 9.6+ */
+	    background-size: 100% 120px,auto; /* Современные браузеры */
+	}
+
+
+	header ul li{
+		width: 40%;
+		margin: 5px;
+	}
+
+	header #logo{
+		margin-left: 35px;
+		width: 90px;
+		height: 90px;
+	}
+
+	header #nav ul li a{
+		padding-bottom: 2px;
+	}
+
+	header #contacts{
+		margin: 15px auto;
+	}
+
+	footer p{
+		margin-right: 45px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	#header .container{
+		background: url(../images/header-bg-tablet.png) no-repeat center bottom;
+		-moz-background-size: 100% 180px,auto; /* Firefox 3.6+ */
+	    -webkit-background-size: 100% 180px,auto; /* Safari 3.1+ и Chrome 4.0+ */
+	    -o-background-size: 100% 180px,auto; /* Opera 9.6+ */
+	    background-size: 100% 180px,auto; /* Современные браузеры */
+	}
+
+	header ul li{
+		width: 90%;
+		margin: 5px 0;
+	}
+
+	footer div p{
+		margin-top: 15px;
+		margin-right: 15px;
+
+	}
+
+}
+    
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,1 @@
+$('div[data-type="vodka"]').parent().removeClass("active")
